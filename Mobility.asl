@@ -21,13 +21,9 @@ init
 	refreshRate = 30; // game runs at 30fps
 }
 
-update
+isLoading
 {
-	if (current.IGT == old.IGT) { //  IGT is frozen i.e. game is paused or we are in the main menu
-		timer.IsGameTimePaused = true; // pause timer
-	} else {
-		timer.IsGameTimePaused = false; // unpause timer
-	}
+	return true; // pause timer when IGT isn't updating, thanks Jujstme
 }
 
 start
@@ -71,9 +67,4 @@ split
 			print("entered or exited main menu");
 		}
 	}
-}
-
-exit
-{
-	timer.IsGameTimePaused = true; // stop timer running if game is exited
 }
