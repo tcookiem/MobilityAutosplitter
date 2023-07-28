@@ -16,4 +16,4 @@ Autosplitter for the game [Mobility](https://auroriax.itch.io/mobility).
 * Checking "Only split when exiting levels" will make it so that the timer only splits automatically when finishing a gameplay level.<br>
 ![screenshot of Advanced setting](https://user-images.githubusercontent.com/60002294/200446040-3e959e7c-1f2b-48a0-bedc-766a7677ac0c.png)
 
-For any questions or feedback, please join the [Mobility Discord server](https://discord.gg/HPSehWU).
+For any questions or feedback, please join the [Mobility Discord server](https://discord.gg/HPSehWU). You can find Mobility's Speedrun page [here](https://www.speedrun.com/mobility).
